@@ -37,8 +37,6 @@ class PembayaranResource extends Resource
                     ->required()
                     ->numeric()
                     ->prefix('Rp'),
-                
-                
 
                 Forms\Components\Select::make('status')
                     ->label('Status Pembayaran')
